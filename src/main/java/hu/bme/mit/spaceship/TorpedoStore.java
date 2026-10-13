@@ -32,7 +32,7 @@ public class TorpedoStore {
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
       throw new IllegalArgumentException("numberOfTorpedos");
     }
-
+    // a kilövés sikerességét jelző változó az értékadást később végezzük el a kódban
     boolean success;
 
     // simulate random overheating of the launcher bay which prevents firing
